@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-family: "Noto Sans", sans-serif;
+    background-color: rgb(22, 33, 53); 
+    color: rgb(130, 141, 177);
+    font-weight: 300;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+header img{
+    height: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1800px;
+    margin: 10px 10px;
+}
+
+.container ul li a p{
+    display: inline;
+    color: rgb(48, 245, 196);
+    font-weight: bold;
+}
+
+.container li{
+    display: inline;
+    margin-left: 10px;
+}
+
+.container ul li a{
+    text-decoration: none;
+    color: rgb(130, 141, 177);
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+section .container{
+    width: 1500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+article{
+    padding: 20px 20px;
+    margin-left: 20px;
+}
+
+h3{
+    font-family: "Chakra Petch", sans-serif;
+    color: rgb(48, 245, 196);
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(185, 196, 224);
+}
+
+h2{
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(130, 141, 177);
+}
+
+h4{
+    margin: 30px 0px;
+}
+
+#about img{
+    height: 300px;
+    border-radius: 50%;
+}
+
+.container2 img{
+    height: 25px;
+    margin: 30px 6px;
+}
+
+textarea{
+    font-family: "Noto Sans", sans-serif;
+    resize: none;
+    height: 100px;
+    width: 500px;
+}
+
+form{
+    margin: 30px 6px;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+    width: 1800px;
+    margin-top: 50px;
+}
+
+.social li{
+    display: inline;
+}
+
+input,
+button{
+    display: block;
+    width: 500px;
+}
+
+input:focus,
+textarea:focus{
+    outline-color: rgb(185, 196, 224);
+}
+
+.social li a{
+    text-decoration: none;
+}
+
+::placeholder{
+    color: rgb(130, 141, 177);
+}
+
+button{
+    background-color: rgb(185, 196, 224);
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    color: rgb(22, 33, 53);
+}
+
+.container3{
+    position: fixed;
+    bottom: 0cm;
+    width: 1800px;
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
